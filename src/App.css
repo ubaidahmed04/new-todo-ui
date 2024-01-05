@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  background-color: #361c69;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center-div {
+  color: #282c34;
+  font-size: 16px;
+  min-height: 200px;
+  /* height: 500px; */
+  width: 550px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Heading {
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 5px #FF5845;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 30px;
+  width: 300px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #EDEEF0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid lightgray;
+}
+
+.input:focus {
+  border: 1px solid #EDEEF0;
+}
+
+.input:hover {
+  border: 1px solid #EDEEF0;
+}
+
+.Add-Btn {
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #EDEEF0;
+  color: #EDEEF0;
+  background-color: #FF5845;
+  font-size: 20px;
+  font-family: serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Add-Btn:active {
+  background-color: #FF5845;
+  opacity: 0.5;
+}
+
+.list-Item {
+  padding: 20px;
+}
+
+.main-list-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding: 5px;
+}
+
+.icon-div {
+  font-size: 20px;
+}
+
+.list-div {
+  font-size: 25px;
+  font-family: serif;
+  list-style-type: none;
+}
